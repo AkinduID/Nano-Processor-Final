@@ -343,3 +343,14 @@ selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "System.
 selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Program_ROM.vhd", 1); // k (j, ck)
 selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 1", 2); // k (j, ck)
 selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Basys3Labs.xdc", 3); // k (j, ck)
+// [GUI Memory]: 149 MB (+412kb) [00:42:57]
+// Elapsed time: 312 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "LUT_16_7.vhd", 4); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Program_ROM.vhd", 1); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "System.vhd", 0); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Program_ROM.vhd", 1); // k (j, ck)
+// Elapsed time: 58 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Basys3Labs.xdc", 3); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Program_ROM.vhd", 1); // k (j, ck)
+// WARNING: updateGUI() is taking  1708 ms.
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "System.vhd", 0); // k (j, ck)
