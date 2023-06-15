@@ -1,0 +1,1 @@
+-wto "67a5dd7157414ed9814149af3173682b" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "Slow_Clock_TB_behav" "xil_defaultlib.Slow_Clock_TB" -log "elaborate.log" 

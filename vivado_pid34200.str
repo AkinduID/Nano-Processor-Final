@@ -1,0 +1,514 @@
+/*
+
+Xilinx Vivado v2018.2 (64-bit) [Major: 2018, Minor: 2]
+SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+
+Process ID: 34200
+License: Customer
+
+Current time: 	Wed Jun 14 19:33:00 IST 2023
+Time zone: 	India Standard Time (Asia/Colombo)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1536x864
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 48 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	E:/Xilinx/Vivado/2018.2/tps/win64/jre
+Java executable location: 	E:/Xilinx/Vivado/2018.2/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	Akind
+User home directory: C:/Users/Akind
+User working directory: E:/Xilinx/Projects/Nano Processor Final
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: E:/Xilinx/Vivado
+HDI_APPROOT: E:/Xilinx/Vivado/2018.2
+RDI_DATADIR: E:/Xilinx/Vivado/2018.2/data
+RDI_BINDIR: E:/Xilinx/Vivado/2018.2/bin
+
+Vivado preferences file location: C:/Users/Akind/AppData/Roaming/Xilinx/Vivado/2018.2/vivado.xml
+Vivado preferences directory: C:/Users/Akind/AppData/Roaming/Xilinx/Vivado/2018.2/
+Vivado layouts directory: C:/Users/Akind/AppData/Roaming/Xilinx/Vivado/2018.2/layouts
+PlanAhead jar file location: 	E:/Xilinx/Vivado/2018.2/lib/classes/planAhead.jar
+Vivado log file location: 	E:/Xilinx/Projects/Nano Processor Final/vivado.log
+Vivado journal file location: 	E:/Xilinx/Projects/Nano Processor Final/vivado.jou
+Engine tmp dir: 	E:/Xilinx/Projects/Nano Processor Final/.Xil/Vivado-34200-DESKTOP-S74UNKU
+
+Xilinx Environment Variables
+----------------------------
+XILINX: E:/Xilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_DSP: E:/Xilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_PLANAHEAD: E:/Xilinx/Vivado/2018.2
+XILINX_SDK: E:/Xilinx/SDK/2018.2
+XILINX_VIVADO: E:/Xilinx/Vivado/2018.2
+XILINX_VIVADO_HLS: E:/Xilinx/Vivado/2018.2
+
+
+GUI allocated memory:	146 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 503 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 57 MB (+57136kb) [00:00:11]
+// [Engine Memory]: 497 MB (+369887kb) [00:00:11]
+// bx (ck):  Open Project : addNotify
+// Opening Vivado Project: E:\Xilinx\Projects\Nano Processor Final\Nano Processor Final.xpr. Version: Vivado v2018.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project {E:/Xilinx/Projects/Nano Processor Final/Nano Processor Final.xpr} 
+// TclEventType: MSGMGR_MOVEMSG
+// HMemoryUtils.trashcanNow. Engine heap size: 507 MB. GUI used memory: 34 MB. Current time: 6/14/23 7:33:02 PM IST
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {E:/Xilinx/Projects/Nano Processor Final/Nano Processor Final.xpr} 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx/Vivado/2018.2/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 535 MB (+13710kb) [00:00:28]
+// [GUI Memory]: 64 MB (+4965kb) [00:00:34]
+// HMemoryUtils.trashcanNow. Engine heap size: 536 MB. GUI used memory: 43 MB. Current time: 6/14/23 7:33:22 PM IST
+// Project name: Nano Processor Final; location: E:/Xilinx/Projects/Nano Processor Final; part: xc7a35tcpg236-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:23 . Memory (MB): peak = 764.828 ; gain = 82.160 
+dismissDialog("Open Project"); // bx (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 26 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, System(Behavioral) (System.vhd)]", 1); // B (D, ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, System(Behavioral) (System.vhd), Processor : Nano_Processor(Behavioral) (Nano_Processor.vhd)]", 4); // B (D, ck)
+// PAPropertyPanels.initPanels (Instruction_Decoder.vhd) elapsed time: 0.3s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, System(Behavioral) (System.vhd), Processor : Nano_Processor(Behavioral) (Nano_Processor.vhd), Instruction_Decoder_0 : Instruction_Decoder(Behavioral) (Instruction_Decoder.vhd)]", 9, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, System(Behavioral) (System.vhd), Processor : Nano_Processor(Behavioral) (Nano_Processor.vhd), Instruction_Decoder_0 : Instruction_Decoder(Behavioral) (Instruction_Decoder.vhd)]", 9, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// [GUI Memory]: 68 MB (+63kb) [00:01:39]
+// [GUI Memory]: 72 MB (+613kb) [00:01:54]
+// [GUI Memory]: 76 MB (+691kb) [00:02:04]
+// [GUI Memory]: 81 MB (+1007kb) [00:04:04]
+// Elapsed time: 263 seconds
+selectTab((HResource) null, (HResource) null, "Reports", 3); // aE (Q, ck)
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 1618ms to process. Increasing delay to 2000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 1685 ms. Increasing delay to 3000 ms.
+// Elapsed time: 344 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 259, 222); // ce (w, ck)
+selectCodeEditor("Instruction_Decoder.vhd", 242, 211); // ce (w, ck)
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'c'); // ce (w, ck)
+// WARNING: HTimer (ExpRunMonitor Open Timer) is taking 1639ms to process. Increasing delay to 6000 ms.
+// Elapsed time: 64 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 364, 201); // ce (w, ck)
+// [GUI Memory]: 86 MB (+1586kb) [00:12:47]
+// Elapsed time: 22 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, System(Behavioral) (System.vhd), Processor : Nano_Processor(Behavioral) (Nano_Processor.vhd)]", 4, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, System(Behavioral) (System.vhd), Processor : Nano_Processor(Behavioral) (Nano_Processor.vhd)]", 4, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// Elapsed time: 14 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Instruction_Decoder.vhd", 1); // k (j, ck)
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1650 ms. Increasing delay to 3000 ms.
+// [GUI Memory]: 91 MB (+359kb) [00:20:10]
+// WARNING: HTimer (ExpRunMonitor Open Timer) is taking 1272ms to process. Increasing delay to 7000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1674 ms. Increasing delay to 4000 ms.
+// WARNING: HTimer (StateMonitor Timer) is taking 1648ms to process. Increasing delay to 4000 ms.
+// Elapsed time: 795 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "val_in"); // l (aQ, ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, System(Behavioral) (System.vhd), Processor : Nano_Processor(Behavioral) (Nano_Processor.vhd)]", 4); // B (D, ck)
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 1642 ms. Increasing delay to 4000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 548ms to process. Increasing delay to 3000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 548 MB. GUI used memory: 46 MB. Current time: 6/14/23 8:03:24 PM IST
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 1696ms to process. Increasing delay to 4000 ms.
+// Elapsed time: 769 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 40, 179); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// WARNING: HTimer (StateMonitor Timer) is taking 2064ms to process. Increasing delay to 5000 ms.
+// TclEventType: DG_GRAPH_STALE
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 485ms to process. Increasing delay to 3000 ms.
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 3946 ms. Increasing delay to 5000 ms.
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 16 seconds
+selectButton(PAResourceItoN.MainToolbarMgr_RUN, (String) null); // ax (f, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// A (ck): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// HOptionPane Warning: 'A background task is running. Please wait until it completes and try again. (Background Task)'
+dismissDialog("Synthesis is Out-of-date"); // A (ck)
+selectButton("OptionPane.button", "OK"); // JButton (A, G)
+selectButton(PAResourceItoN.MainToolbarMgr_RUN, (String) null); // ax (f, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// A (ck): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bx (ck):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // A (ck)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// f (ck): Launch Runs: addNotify
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 204ms to process. Increasing delay to 2000 ms.
+// Elapsed time: 56 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// [GUI Memory]: 102 MB (+6712kb) [00:40:33]
+// bx (ck):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ck)
+// Tcl Message: launch_runs impl_1 -jobs 4 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Jun 14 20:13:24 2023] Launched synth_1... Run output will be captured here: E:/Xilinx/Projects/Nano Processor Final/Nano Processor Final.runs/synth_1/runme.log [Wed Jun 14 20:13:24 2023] Launched impl_1... Run output will be captured here: E:/Xilinx/Projects/Nano Processor Final/Nano Processor Final.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Nano_Processor.vhd", 2); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Instruction_Decoder.vhd", 1); // k (j, ck)
+selectCodeEditor("Instruction_Decoder.vhd", 270, 233); // ce (w, ck)
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 591ms to process. Increasing delay to 3000 ms.
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking 485ms to process. Increasing delay to 3000 ms.
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking 3306ms to process. Increasing delay to 4000 ms.
+// ah (ck): Implementation Completed: addNotify
+// Elapsed time: 281 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Implementation Completed"); // ah (ck)
+// Elapsed time: 30 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, System(Behavioral) (System.vhd), Processor : Nano_Processor(Behavioral) (Nano_Processor.vhd), Program_ROM_0 : Program_ROM(Behavioral) (Program_ROM.vhd)]", 8, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, System(Behavioral) (System.vhd), Processor : Nano_Processor(Behavioral) (Nano_Processor.vhd), Program_ROM_0 : Program_ROM(Behavioral) (Program_ROM.vhd)]", 8, false, false, false, false, false, true); // B (D, ck) - Double Click
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 790ms to process. Increasing delay to 4000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 548 MB. GUI used memory: 46 MB. Current time: 6/14/23 8:33:27 PM IST
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking 1701ms to process. Increasing delay to 5000 ms.
+// WARNING: HTimer (ExpRunMonitor Open Timer) is taking 1644ms to process. Increasing delay to 8000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 1606ms to process. Increasing delay to 4000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 7371 ms. Increasing delay to 6000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 4293 ms. Increasing delay to 5000 ms.
+// WARNING: HTimer (MainWindowUtils Timer) is taking 2565ms to process. Increasing delay to 11000 ms.
+// WARNING: HTimer (MainWindowUtils Timer) is taking 2411ms to process. Increasing delay to 12000 ms.
+// Elapsed time: 2587 seconds
+selectCodeEditor("Program_ROM.vhd", 663, 135); // ce (w, ck)
+selectCodeEditor("Program_ROM.vhd", 154, 126); // ce (w, ck)
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 4008 ms. Increasing delay to 6000 ms.
+selectCodeEditor("Program_ROM.vhd", 517, 135); // ce (w, ck)
+// Elapsed time: 36 seconds
+selectCodeEditor("Program_ROM.vhd", 163, 127); // ce (w, ck)
+selectCodeEditor("Program_ROM.vhd", 236, 135); // ce (w, ck)
+// Elapsed time: 55 seconds
+selectCodeEditor("Program_ROM.vhd", 278, 131); // ce (w, ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 548 MB. GUI used memory: 45 MB. Current time: 6/14/23 9:03:35 PM IST
+selectCodeEditor("Program_ROM.vhd", 120, 128); // ce (w, ck)
+selectCodeEditor("Program_ROM.vhd", 292, 139); // ce (w, ck)
+// Elapsed time: 17 seconds
+selectCodeEditor("Program_ROM.vhd", 47, 128); // ce (w, ck)
+selectCodeEditor("Program_ROM.vhd", 48, 128); // ce (w, ck)
+// Elapsed time: 28 seconds
+selectCodeEditor("Program_ROM.vhd", 275, 133); // ce (w, ck)
+selectCodeEditor("Program_ROM.vhd", 252, 127); // ce (w, ck)
+selectCodeEditor("Program_ROM.vhd", 279, 156); // ce (w, ck)
+selectCodeEditor("Program_ROM.vhd", 323, 128); // ce (w, ck)
+selectCodeEditor("Program_ROM.vhd", 203, 127); // ce (w, ck)
+selectCodeEditor("Program_ROM.vhd", 347, 132); // ce (w, ck)
+// Elapsed time: 23 seconds
+selectCodeEditor("Program_ROM.vhd", 251, 129); // ce (w, ck)
+selectCodeEditor("Program_ROM.vhd", 302, 130); // ce (w, ck)
+// Elapsed time: 36 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Nano_Processor.vhd", 2); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Program_ROM.vhd", 3); // k (j, ck)
+// Elapsed time: 36 seconds
+selectCodeEditor("Program_ROM.vhd", 163, 199); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Nano_Processor.vhd", 2); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Instruction_Decoder.vhd", 1); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Nano_Processor.vhd", 2); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Program_ROM.vhd", 3); // k (j, ck)
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Instruction_Decoder.vhd", 1); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Nano_Processor.vhd", 2); // k (j, ck)
+selectCodeEditor("Nano_Processor.vhd", 587, 58); // ce (w, ck)
+// Elapsed time: 153 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Program_ROM.vhd", 3); // k (j, ck)
+// Elapsed time: 72 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Instruction_Decoder.vhd", 1); // k (j, ck)
+// Elapsed time: 30 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 291, 92); // ce (w, ck)
+// Elapsed time: 12 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 397, 97); // ce (w, ck)
+selectCodeEditor("Instruction_Decoder.vhd", 364, 117); // ce (w, ck)
+// Elapsed time: 12 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 286, 132); // ce (w, ck)
+selectCodeEditor("Instruction_Decoder.vhd", 297, 116); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Program_ROM.vhd", 3); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Instruction_Decoder.vhd", 1); // k (j, ck)
+selectCodeEditor("Instruction_Decoder.vhd", 500, 119); // ce (w, ck)
+selectCodeEditor("Instruction_Decoder.vhd", 456, 89); // ce (w, ck)
+selectCodeEditor("Instruction_Decoder.vhd", 473, 114); // ce (w, ck)
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("Instruction_Decoder.vhd", 329, 131); // ce (w, ck)
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'v'); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Nano_Processor.vhd", 2); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Program_ROM.vhd", 3); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Instruction_Decoder.vhd", 1); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Program_ROM.vhd", 3); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Instruction_Decoder.vhd", 1); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Program_ROM.vhd", 3); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Instruction_Decoder.vhd", 1); // k (j, ck)
+selectCodeEditor("Instruction_Decoder.vhd", 325, 144); // ce (w, ck)
+// Elapsed time: 11 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 338, 166); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Program_ROM.vhd", 3); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Instruction_Decoder.vhd", 1); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Program_ROM.vhd", 3); // k (j, ck)
+selectCodeEditor("Program_ROM.vhd", 432, 231); // ce (w, ck)
+// Elapsed time: 11 seconds
+selectCodeEditor("Program_ROM.vhd", 500, 193); // ce (w, ck)
+// Elapsed time: 43 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Instruction_Decoder.vhd", 1); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Program_ROM.vhd", 3); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Instruction_Decoder.vhd", 1); // k (j, ck)
+// WARNING: HTimer (a Update Status Timer) is taking 1493ms to process. Increasing delay to 3000 ms.
+// Elapsed time: 93 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 68, 141); // ce (w, ck)
+// WARNING: HTimer (WrapperUtils Delayed Delete Timer) is taking 969ms to process. Increasing delay to 2000 ms.
+// Elapsed time: 398 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Program_ROM.vhd", 3); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Instruction_Decoder.vhd", 1); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Program_ROM.vhd", 3); // k (j, ck)
+selectCodeEditor("Program_ROM.vhd", 432, 129); // ce (w, ck)
+selectCodeEditor("Program_ROM.vhd", 464, 104); // ce (w, ck)
+// Elapsed time: 21 seconds
+selectCodeEditor("Program_ROM.vhd", 435, 176); // ce (w, ck)
+// Elapsed time: 103 seconds
+selectCodeEditor("Program_ROM.vhd", 232, 181); // ce (w, ck)
+// Elapsed time: 51 seconds
+selectCodeEditor("Program_ROM.vhd", 234, 179); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Instruction_Decoder.vhd", 1); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Nano_Processor.vhd", 2); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Program_ROM.vhd", 3); // k (j, ck)
+// Elapsed time: 81 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Instruction_Decoder.vhd", 1); // k (j, ck)
+// Elapsed time: 14 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Program_ROM.vhd", 3); // k (j, ck)
+selectCodeEditor("Program_ROM.vhd", 228, 183); // ce (w, ck)
+selectCodeEditor("Program_ROM.vhd", 239, 185); // ce (w, ck)
+selectCodeEditor("Program_ROM.vhd", 224, 177); // ce (w, ck)
+// Elapsed time: 50 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Instruction_Decoder.vhd", 1); // k (j, ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 548 MB. GUI used memory: 45 MB. Current time: 6/14/23 9:33:36 PM IST
+// Elapsed time: 579 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Program_ROM.vhd", 3); // k (j, ck)
+// Elapsed time: 11 seconds
+selectCodeEditor("Program_ROM.vhd", 224, 122); // ce (w, ck)
+selectCodeEditor("Program_ROM.vhd", 222, 129); // ce (w, ck)
+selectCodeEditor("Program_ROM.vhd", 226, 130, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Program_ROM.vhd", 219, 128); // ce (w, ck)
+// Elapsed time: 96 seconds
+selectCodeEditor("Program_ROM.vhd", 392, 130); // ce (w, ck)
+selectCodeEditor("Program_ROM.vhd", 502, 97); // ce (w, ck)
+selectCodeEditor("Program_ROM.vhd", 376, 124); // ce (w, ck)
+selectCodeEditor("Program_ROM.vhd", 390, 124); // ce (w, ck)
+// Elapsed time: 125 seconds
+selectCodeEditor("Program_ROM.vhd", 303, 144); // ce (w, ck)
+selectCodeEditor("Program_ROM.vhd", 567, 197); // ce (w, ck)
+selectCodeEditor("Program_ROM.vhd", 313, 157); // ce (w, ck)
+// Elapsed time: 17 seconds
+selectCodeEditor("Program_ROM.vhd", 167, 180); // ce (w, ck)
+selectCodeEditor("Program_ROM.vhd", 237, 240); // ce (w, ck)
+// WARNING: HTimer (ExpRunMonitor Open Timer) is taking 1621ms to process. Increasing delay to 9000 ms.
+// WARNING: HTimer (WrapperUtils Delayed Delete Timer) is taking 1380ms to process. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 13533 ms. Increasing delay to 7000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 2543 ms to process. Increasing delay to 2000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 2520 ms to process. Increasing delay to 2000 ms.
+// WARNING: HTimer (StateMonitor Timer) is taking 1597ms to process. Increasing delay to 6000 ms.
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 1672ms to process. Increasing delay to 5000 ms.
+// Elapsed time: 689 seconds
+selectCodeEditor("Program_ROM.vhd", 164, 231); // ce (w, ck)
+selectCodeEditor("Program_ROM.vhd", 171, 192); // ce (w, ck)
+// Elapsed time: 21 seconds
+selectCodeEditor("Program_ROM.vhd", 232, 163); // ce (w, ck)
+selectCodeEditor("Program_ROM.vhd", 468, 163); // ce (w, ck)
+// Elapsed time: 20 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Instruction_Decoder.vhd", 1); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Nano_Processor.vhd", 2); // k (j, ck)
+selectCodeEditor("Nano_Processor.vhd", 417, 117); // ce (w, ck)
+// Elapsed time: 24 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "Reset"); // l (aQ, ck)
+selectButton(RDIResource.HCodeEditor_CLOSE, (String) null); // k (aI, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Instruction_Decoder.vhd", 1); // k (j, ck)
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, System(Behavioral) (System.vhd), Processor : Nano_Processor(Behavioral) (Nano_Processor.vhd), Program_Counter : Reg_3bit(Behavioral) (Reg_3bit.vhd)]", 5, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, System(Behavioral) (System.vhd), Processor : Nano_Processor(Behavioral) (Nano_Processor.vhd), Program_Counter : Reg_3bit(Behavioral) (Reg_3bit.vhd)]", 5, false, false, false, false, false, true); // B (D, ck) - Double Click
+// Elapsed time: 25 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, System(Behavioral) (System.vhd), Processor : Nano_Processor(Behavioral) (Nano_Processor.vhd), Reg_Bank_0 : Register_Bank(Behavioral) (Register_Bank.vhd)]", 12, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, System(Behavioral) (System.vhd), Processor : Nano_Processor(Behavioral) (Nano_Processor.vhd), Reg_Bank_0 : Register_Bank(Behavioral) (Register_Bank.vhd), Reg_4 : Reg_4bit(Behavioral) (Reg_4bit.vhd)]", 16, false, false, false, false, false, true); // B (D, ck) - Double Click
+// Elapsed time: 16 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, System(Behavioral) (System.vhd), Processor : Nano_Processor(Behavioral) (Nano_Processor.vhd), Reg_Bank_0 : Register_Bank(Behavioral) (Register_Bank.vhd), Reg_4 : Reg_4bit(Behavioral) (Reg_4bit.vhd)]", 16, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, System(Behavioral) (System.vhd), Processor : Nano_Processor(Behavioral) (Nano_Processor.vhd), Reg_Bank_0 : Register_Bank(Behavioral) (Register_Bank.vhd), Reg_4 : Reg_4bit(Behavioral) (Reg_4bit.vhd)]", 16, false, false, false, false, false, true); // B (D, ck) - Double Click
+// Elapsed time: 32 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Register_Bank.vhd", 5); // k (j, ck)
+// Elapsed time: 15 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Program_ROM.vhd", 3); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Reg_3bit.vhd", 4); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Register_Bank.vhd", 5); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Reg_4bit.vhd", 6); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Register_Bank.vhd", 5); // k (j, ck)
+// Elapsed time: 24 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Nano_Processor.vhd", 2); // k (j, ck)
+selectCodeEditor("Nano_Processor.vhd", 408, 207); // ce (w, ck)
+// Elapsed time: 18 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "CLK"); // l (aQ, ck)
+selectCodeEditor("Nano_Processor.vhd", 164, 221); // ce (w, ck)
+selectCodeEditor("Nano_Processor.vhd", 171, 232); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 29 seconds
+selectCodeEditor("Nano_Processor.vhd", 345, 204); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Instruction_Decoder.vhd", 1); // k (j, ck)
+selectCodeEditor("Instruction_Decoder.vhd", 388, 147); // ce (w, ck)
+selectCodeEditor("Instruction_Decoder.vhd", 372, 179); // ce (w, ck)
+selectCodeEditor("Instruction_Decoder.vhd", 348, 161); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 24 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Nano_Processor.vhd", 2); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Program_ROM.vhd", 3); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Instruction_Decoder.vhd", 1); // k (j, ck)
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 291ms to process. Increasing delay to 2000 ms.
+// Elapsed time: 277 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Program_ROM.vhd", 3); // k (j, ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 548 MB. GUI used memory: 47 MB. Current time: 6/14/23 10:03:37 PM IST
+// Elapsed time: 94 seconds
+selectCodeEditor("Program_ROM.vhd", 20, 59); // ce (w, ck)
+selectCodeEditor("Program_ROM.vhd", 583, 58); // ce (w, ck)
+selectCodeEditor("Program_ROM.vhd", 555, 77); // ce (w, ck)
+selectCodeEditor("Program_ROM.vhd", 517, 88); // ce (w, ck)
+selectCodeEditor("Program_ROM.vhd", 503, 108); // ce (w, ck)
+selectCodeEditor("Program_ROM.vhd", 495, 128); // ce (w, ck)
+selectCodeEditor("Program_ROM.vhd", 501, 148); // ce (w, ck)
+// Elapsed time: 10 seconds
+selectCodeEditor("Program_ROM.vhd", 514, 149); // ce (w, ck)
+// Elapsed time: 20 seconds
+selectCodeEditor("Program_ROM.vhd", 494, 140); // ce (w, ck)
+selectCodeEditor("Program_ROM.vhd", 519, 161); // ce (w, ck)
+selectCodeEditor("Program_ROM.vhd", 521, 177); // ce (w, ck)
+selectCodeEditor("Program_ROM.vhd", 516, 217); // ce (w, ck)
+selectCodeEditor("Program_ROM.vhd", 494, 182); // ce (w, ck)
+selectCodeEditor("Program_ROM.vhd", 490, 183); // ce (w, ck)
+selectCodeEditor("Program_ROM.vhd", 524, 214); // ce (w, ck)
+selectCodeEditor("Program_ROM.vhd", 491, 174); // ce (w, ck)
+// Elapsed time: 149 seconds
+selectCodeEditor("Program_ROM.vhd", 197, 193); // ce (w, ck)
+// Elapsed time: 113 seconds
+selectCodeEditor("Program_ROM.vhd", 162, 164); // ce (w, ck)
+selectCodeEditor("Program_ROM.vhd", 216, 187); // ce (w, ck)
+selectCodeEditor("Program_ROM.vhd", 502, 192); // ce (w, ck)
+// Elapsed time: 14 seconds
+selectCodeEditor("Program_ROM.vhd", 249, 268); // ce (w, ck)
+// Elapsed time: 13 seconds
+selectCodeEditor("Program_ROM.vhd", 510, 60); // ce (w, ck)
+selectCodeEditor("Program_ROM.vhd", 520, 60); // ce (w, ck)
+selectCodeEditor("Program_ROM.vhd", 526, 161); // ce (w, ck)
+selectCodeEditor("Program_ROM.vhd", 167, 204); // ce (w, ck)
+// Elapsed time: 16 seconds
+selectCodeEditor("Program_ROM.vhd", 431, 162); // ce (w, ck)
+selectCodeEditor("Program_ROM.vhd", 412, 204); // ce (w, ck)
+// WARNING: updateGUI() is taking  1067 ms.
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Instruction_Decoder.vhd", 1); // k (j, ck)
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Reg_3bit.vhd", 4); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Nano_Processor.vhd", 2); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Program_ROM.vhd", 3); // k (j, ck)
+// Elapsed time: 15 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Instruction_Decoder.vhd", 1); // k (j, ck)
+// Elapsed time: 31 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Reg_3bit.vhd", 4); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Program_ROM.vhd", 3); // k (j, ck)
+// Elapsed time: 15 seconds
+selectCodeEditor("Program_ROM.vhd", 224, 165); // ce (w, ck)
+// WARNING: HTimer (StateMonitor Timer) is taking 1284ms to process. Increasing delay to 7000 ms.
+// WARNING: HTimer (StateMonitor Timer) is taking 1631ms to process. Increasing delay to 8000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 1639ms to process. Increasing delay to 3000 ms.
+// WARNING: HTimer (HMemoryUtils Timer) is taking 1664ms to process. Increasing delay to 6000 ms.
+// Elapsed time: 1139 seconds
+selectButton(PAResourceItoN.MainToolbarMgr_RUN, (String) null); // ax (f, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// A (ck): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bx (ck):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // A (ck)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 810.379 ; gain = 2.254 
+// aj (ck): Save Project: addNotify
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 439ms to process. Increasing delay to 2000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 548 MB. GUI used memory: 47 MB. Current time: 6/14/23 10:33:36 PM IST
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 1625ms to process. Increasing delay to 3000 ms.
+// WARNING: HTimer (StateMonitor Timer) is taking 1630ms to process. Increasing delay to 9000 ms.
+// WARNING: HTimer (a Update Status Timer) is taking 1688ms to process. Increasing delay to 4000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 1645ms to process. Increasing delay to 4000 ms.
+// Elapsed time: 1603 seconds
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (aj)
+// WARNING: updateGUI() is taking  1110 ms.
+// bx (ck):  Save Constraints : addNotify
+// TclEventType: DG_GRAPH_STALE
+// f (ck): Launch Runs: addNotify
+dismissDialog("Save Project"); // aj (ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (ck):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Tcl Message: launch_runs impl_1 -jobs 4 
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Jun 14 22:59:00 2023] Launched synth_1... Run output will be captured here: E:/Xilinx/Projects/Nano Processor Final/Nano Processor Final.runs/synth_1/runme.log [Wed Jun 14 22:59:00 2023] Launched impl_1... Run output will be captured here: E:/Xilinx/Projects/Nano Processor Final/Nano Processor Final.runs/impl_1/runme.log 
+// Tcl Message: launch_runs: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 813.613 ; gain = 2.980 
+// Elapsed time: 11 seconds
+dismissDialog("Starting Design Runs"); // bx (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 548 MB. GUI used memory: 46 MB. Current time: 6/14/23 11:03:40 PM IST
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 469ms to process. Increasing delay to 2000 ms.
+// WARNING: HTimer (a Update Status Timer) is taking 998ms to process. Increasing delay to 3000 ms.
+// WARNING: HTimer (a Update Status Timer) is taking 1620ms to process. Increasing delay to 5000 ms.
+// WARNING: HTimer (a Update Status Timer) is taking 1645ms to process. Increasing delay to 4000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 1628ms to process. Increasing delay to 3000 ms.
+// WARNING: HTimer (StateMonitor Timer) is taking 1807ms to process. Increasing delay to 10000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 548 MB. GUI used memory: 46 MB. Current time: 6/14/23 11:33:39 PM IST
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 1661ms to process. Increasing delay to 6000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 548 MB. GUI used memory: 46 MB. Current time: 6/15/23 12:03:40 AM IST
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 1722ms to process. Increasing delay to 4000 ms.
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 1695ms to process. Increasing delay to 7000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 1702ms to process. Increasing delay to 5000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 1737ms to process. Increasing delay to 6000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 548 MB. GUI used memory: 46 MB. Current time: 6/15/23 12:33:40 AM IST
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 1673ms to process. Increasing delay to 7000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 1758ms to process. Increasing delay to 8000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 548 MB. GUI used memory: 46 MB. Current time: 6/15/23 1:03:39 AM IST
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 1693ms to process. Increasing delay to 9000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 548 MB. GUI used memory: 46 MB. Current time: 6/15/23 1:33:40 AM IST
+// WARNING: HTimer (HMemoryUtils Timer) is taking 1428ms to process. Increasing delay to 7000 ms.

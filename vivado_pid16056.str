@@ -1,0 +1,108 @@
+/*
+
+Xilinx Vivado v2018.2 (64-bit) [Major: 2018, Minor: 2]
+SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+
+Process ID: 16056
+License: Customer
+
+Current time: 	Thu Jun 15 09:57:43 IST 2023
+Time zone: 	India Standard Time (Asia/Colombo)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1536x864
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 58 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	E:/Xilinx/Vivado/2018.2/tps/win64/jre
+Java executable location: 	E:/Xilinx/Vivado/2018.2/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	Akind
+User home directory: C:/Users/Akind
+User working directory: E:/Xilinx/Projects/Nano Processor Final
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: E:/Xilinx/Vivado
+HDI_APPROOT: E:/Xilinx/Vivado/2018.2
+RDI_DATADIR: E:/Xilinx/Vivado/2018.2/data
+RDI_BINDIR: E:/Xilinx/Vivado/2018.2/bin
+
+Vivado preferences file location: C:/Users/Akind/AppData/Roaming/Xilinx/Vivado/2018.2/vivado.xml
+Vivado preferences directory: C:/Users/Akind/AppData/Roaming/Xilinx/Vivado/2018.2/
+Vivado layouts directory: C:/Users/Akind/AppData/Roaming/Xilinx/Vivado/2018.2/layouts
+PlanAhead jar file location: 	E:/Xilinx/Vivado/2018.2/lib/classes/planAhead.jar
+Vivado log file location: 	E:/Xilinx/Projects/Nano Processor Final/vivado.log
+Vivado journal file location: 	E:/Xilinx/Projects/Nano Processor Final/vivado.jou
+Engine tmp dir: 	E:/Xilinx/Projects/Nano Processor Final/.Xil/Vivado-16056-DESKTOP-S74UNKU
+
+Xilinx Environment Variables
+----------------------------
+XILINX: E:/Xilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_DSP: E:/Xilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_PLANAHEAD: E:/Xilinx/Vivado/2018.2
+XILINX_SDK: E:/Xilinx/SDK/2018.2
+XILINX_VIVADO: E:/Xilinx/Vivado/2018.2
+XILINX_VIVADO_HLS: E:/Xilinx/Vivado/2018.2
+
+
+GUI allocated memory:	150 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 486 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// [GUI Memory]: 17 MB (+15806kb) [00:00:06]
+// [Engine Memory]: 319 MB (+183405kb) [00:00:06]
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 47 MB (+29940kb) [00:00:23]
+// [Engine Memory]: 478 MB (+149642kb) [00:00:23]
+// TclEventType: PROJECT_OPEN_DIALOG
+// bx (ck):  Open Project : addNotify
+// Opening Vivado Project: E:\Xilinx\Projects\Nano Processor Final\Nano Processor Final.xpr. Version: Vivado v2018.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project {E:/Xilinx/Projects/Nano Processor Final/Nano Processor Final.xpr} 
+// [GUI Memory]: 62 MB (+13755kb) [00:00:27]
+// HMemoryUtils.trashcanNow. Engine heap size: 486 MB. GUI used memory: 34 MB. Current time: 6/15/23 9:57:45 AM IST
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {E:/Xilinx/Projects/Nano Processor Final/Nano Processor Final.xpr} 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx/Vivado/2018.2/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 534 MB (+33862kb) [00:00:51]
+// [GUI Memory]: 68 MB (+2729kb) [00:00:55]
+// [Engine Memory]: 563 MB (+2284kb) [00:00:55]
+// HMemoryUtils.trashcanNow. Engine heap size: 570 MB. GUI used memory: 43 MB. Current time: 6/15/23 9:58:15 AM IST
+// Project name: Nano Processor Final; location: E:/Xilinx/Projects/Nano Processor Final; part: xc7a35tcpg236-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:33 . Memory (MB): peak = 744.777 ; gain = 55.312 
+dismissDialog("Open Project"); // bx (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 1641 ms. Increasing delay to 3000 ms.
+// [Engine Memory]: 603 MB (+11769kb) [00:03:58]
+// Elapsed time: 180 seconds
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw
+// [GUI Memory]: 72 MB (+947kb) [00:04:06]
+// [GUI Memory]: 77 MB (+500kb) [00:05:38]
+// [GUI Memory]: 82 MB (+1885kb) [00:08:11]
