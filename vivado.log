@@ -168,3 +168,8 @@ Resolution:
 For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
 ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183A8A8D0A
 close_hw
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 2442.172 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Jun 16 12:19:32 2023...
