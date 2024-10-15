@@ -1,4 +1,1 @@
-## 4bit Nano-Processor
-
-#### This repository contains a 4bit nanoprocessor designed by VHDL using Vivado Software
-#### The processor is intended to run on a Basys 3 FPGA Board
+As part of CS1050 - Computer Organization and Digital Design Module in 2nd Semester, our team designed a 4-bit nanoprocessor in VHDL using Vivado. We also developed a simple counter program and hardcoded it to the processor ROM, We uploaded it to a Basys3 FPGA board, and rigorously simulated the counter for functionality.
