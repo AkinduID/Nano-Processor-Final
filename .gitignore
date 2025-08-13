@@ -1,0 +1,62 @@
+# =============================
+# OS-specific
+# =============================
+.DS_Store
+Thumbs.db
+
+# =============================
+# VS Code settings
+# =============================
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# =============================
+# Vivado Generated Files & Folders
+# =============================
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+.xil/
+
+# # Vivado project files (optional to keep)
+# *.xpr
+# *.xpr.lock
+# *.xpr.user
+
+# Vivado log & journal files
+*.jou
+*.log
+*.str
+*.backup.jou
+*.backup.log
+
+# Synthesis, implementation, and netlist outputs
+*.dcp
+*.edif
+*.edf
+*.ncd
+*.ngc
+*.ngd
+*.ngr
+
+# Simulation outputs
+*.vcd
+*.wdb
+*.wcfg
+
+# Generated programming files
+*.bit
+*.bin
+*.svf
+
+# =============================
+# Temporary & Backup Files
+# =============================
+*~
+*.tmp
+*.bak
+*.backup
+*.swp
