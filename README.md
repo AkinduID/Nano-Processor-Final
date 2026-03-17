@@ -5,7 +5,9 @@
 [![FPGA](https://img.shields.io/badge/Basys3%20FPGA-0066CC?style=flat&logoColor=white)](https://digilent.com/reference/programmable-logic/basys-3/start)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-A fully functional **4-bit single-cycle processor** designed in VHDL, synthesised on a **Basys3 (Artix-7) FPGA**. Built as part of CS1050 – Computer Organisation and Digital Design, this project implements a minimal but complete instruction set covering data movement, arithmetic, bitwise negation, and conditional branching, with output visualised on the board's 7-segment display.
+A fully functional **4-bit single-cycle processor** designed in VHDL, synthesised on a **Basys3 (Artix-7) FPGA**. This also project implements a minimal but complete instruction set covering data movement, arithmetic, bitwise negation, and conditional branching, with output visualised on the board's 7-segment display.
+
+> Built as part of CS1050 – Computer Organisation and Digital Design
 
 <img src="https://github.com/AkinduID/Nano-Processor-Final/blob/main/block_diagram.jpg" alt="Block diagram of the Nano Processor">
 
