@@ -3,7 +3,6 @@
 [![VHDL](https://img.shields.io/badge/VHDL-007ACC?style=flat&logoColor=white)](https://en.wikipedia.org/wiki/VHDL)
 [![Vivado](https://img.shields.io/badge/Xilinx%20Vivado-FF0000?style=flat&logoColor=white)](https://www.xilinx.com/products/design-tools/vivado.html)
 [![FPGA](https://img.shields.io/badge/Basys3%20FPGA-0066CC?style=flat&logoColor=white)](https://digilent.com/reference/programmable-logic/basys-3/start)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A fully functional **4-bit single-cycle processor** designed in VHDL, synthesised on a **Basys3 (Artix-7) FPGA**. This also project implements a minimal but complete instruction set covering data movement, arithmetic, bitwise negation, and conditional branching, with output visualised on the board's 7-segment display.
 
